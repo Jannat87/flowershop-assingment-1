@@ -1,0 +1,283 @@
+/*Header related styles */
+.header{
+    background-color: #FCEEF1;
+    height: 560px;
+    width: 1051px;
+    padding: 30px 130px 20px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .head-banner .head-title{
+    color: #272727;
+    font-size: 54px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+.btn-primary{
+    background: #E55473;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 15px 25px ;
+    border: 0;
+    border-radius: 5px;
+}
+.header .head-banner-pic{
+    width: 750px;
+    height: 550px;
+    padding: 50px 0px 0px 160px;
+}
+.header .head-banner p{
+    font-size: 14px;
+    color: #A89FA1;
+}
+/*Featured section style*/
+.main-section{
+    width: 1000px;
+    height: 1200px;
+}
+.main-section .featured .featured-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 980;
+    margin-top: 120px;
+    margin-left: 330px;;
+}
+.main-section .featured p{
+    color: #797979;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 300px;
+}
+.main-section .featured .featured-flowers{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 40px;
+}
+.main-section .featured .featured-flowers .featured-flower-img1{
+    height: 300px;
+    width: 180px;
+}
+.main-section .featured .featured-flowers .featured-flower-img1 img{
+    border-radius: 300px 300px 0px 0px;
+    background: #F2DEE7;
+    height: 360px;
+    width: 320px;
+}
+.main-section .featured .featured-flowers .featured-flower-img1 p{
+    margin-left: 45px;
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+}
+.main-section .featured .featured-flowers .featured-flower-img2{
+    height: 300px;
+    width: 180px;
+    margin-left: 140px;
+}
+.main-section .featured .featured-flowers .featured-flower-img2 img{
+    border-radius: 300px 300px 0px 0px;
+    background: #D9EFF1;
+    margin-left: 20px;
+    height: 360px;
+    width: 320px;
+}
+.main-section .featured .featured-flowers .featured-flower-img2 p{
+    margin-left: 45px;
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+}
+.main-section .featured .featured-flowers .featured-flower-img3{
+    height: 300px;
+    width: 180px;
+    margin-left: 160px;
+}
+.main-section .featured .featured-flowers .featured-flower-img3 img{
+    border-radius: 300px 300px 0px 0px;
+    background: #E3EBDB;
+    margin-left: 20px;
+    height: 360px;
+    width: 320px;
+}
+.main-section .featured .featured-flowers .featured-flower-img3 p{
+    margin-left: 45px;
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+}
+/*Hot deal section style*/
+.main-section .hotdeal-offer{
+    background-color: #FDF6F8;
+    height: 350px;
+    width: 1051px;
+    margin-top: 190px;
+    padding: 30px 130px 20px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hotdeal-offer .hotdeal-offer-banner{
+    margin-left: 100px;
+    text-align: center;
+}
+.hotdeal-offer .hotdeal-offer-banner .hotdeal-offer-title{
+    color: #272727;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+.hotdeal-offer .hotdeal-offer-banner .hotdeal-offer-title span{
+    color: #E55473;
+}
+.hotdeal-offer .hotdeal-banner-pic{
+    width: 230px;
+    height: 300px;
+    margin-right: 200px;
+}
+.hotdeal-offer .hotdeal-offer-banner p{
+    font-size: 14px;
+    color: #A89FA1;
+}
+/*Instagram section style*/
+.instagram-section .instagram-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 350px;
+    margin-top: 90px;
+}
+.instagram-section p{
+    font-style: normal;
+    margin-left: 350px;
+    text-align: center;
+    color: #989898;
+    font-family: Lato;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.instagram-section .instagram-flower-pic{
+    display: flex;
+    margin-top: 30px;
+    height: 400px;
+    width: 90px;
+    /* background-color: green; */
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.instagram-section .instagram-flower-pic{
+    height: 265px;
+    width: 970px;
+}
+.instagram-section .instagram-flower-pic .instagram-img1 img{
+    height: 265px;
+    width: 235px; 
+}
+.instagram-section .instagram-flower-pic .instagram-img2 img{
+    height: 265px;
+    width: 235px; 
+    margin-left: 10px;  
+}
+.instagram-section .instagram-flower-pic .instagram-img3 img{
+    height: 265px;
+    width: 235px; 
+    margin-left: 10px;
+}
+.instagram-section .instagram-flower-pic .instagram-img4 img{
+    height: 265px;
+    width: 235px; 
+    margin-left: 10px;
+}
+/*Subscribe section style*/
+.subscribers .subscriber-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 250px;
+    /* padding-bottom: 250px;  */
+}
+.subscribers P{
+    font-size: 20px;
+    color: #AAACAD;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 400;
+    margin-left: 250px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.subscribers img{
+    width: 970px;
+    height: 270px;
+    border-radius: 8px;
+    background: #EDF1F2;
+    /* margin-top: 30px; */
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.subscribers .email{ 
+    display: flex;
+}
+.subscribers .tex-email{
+    width: 490px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #FFF;
+    margin-left: 350px;
+    padding-left: 40px;
+    padding-top: 8px;
+}
+.subscribers .email .tex-email .btn-primary{
+    background: #E55473;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 5px 10px ;
+    border: 0;
+    border-radius: 5px; 
+}
+/*Footer style*/
+.footer-section .footer-title{
+    background-color: #111010;
+    height: 250px;
+    width: 791px;
+    margin-top: 720px;
+    color: #fff;
+    font-size: 40px;
+    padding-left: 550px;
+    font-family: Lato;
+    padding-top: 80px;
+}
+.footer-section .footer-title span{
+    color: #E55473;
+}
+.footer-section p{
+    padding-right: 350px;
+    color: #939393;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+}
+.footer-section .footer-title a{
+    color: #334048;
+    text-align: center;
+    font-family: Lato;
+    font-size: 13px;
+    margin-right: 20px;
+}
